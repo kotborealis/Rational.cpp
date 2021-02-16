@@ -5,6 +5,13 @@
  */
 class Rational {
 public:
+    // not a number
+    // Указывает, что число не является числом
+    // по аналогии с float
+    // Устанавливается в true,
+    // если выполнили операцию
+    // с делением на ноль
+    bool nan;
     int numerator;
     int denumerator;
 
